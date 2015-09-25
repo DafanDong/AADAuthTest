@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <TextBox Name="token" HorizontalAlignment="Left" Height="233" Margin="23,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="468" />
+
     </Grid>
 </Window>
