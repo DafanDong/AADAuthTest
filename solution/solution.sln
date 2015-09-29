@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{E9BCFA1B-B246-46D5-AAC8-92E980E847D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsaGetAuth", "MsaGetAuthTest\MsaGetAuth.csproj", "{EBF60293-0A8B-4E44-8C70-2F37EDDE7E84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E9BCFA1B-B246-46D5-AAC8-92E980E847D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9BCFA1B-B246-46D5-AAC8-92E980E847D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9BCFA1B-B246-46D5-AAC8-92E980E847D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF60293-0A8B-4E44-8C70-2F37EDDE7E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF60293-0A8B-4E44-8C70-2F37EDDE7E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF60293-0A8B-4E44-8C70-2F37EDDE7E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF60293-0A8B-4E44-8C70-2F37EDDE7E84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
