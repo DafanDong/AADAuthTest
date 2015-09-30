@@ -120,6 +120,7 @@ namespace BingAdsAppTest
             Console.WriteLine("\n\n\nAccess token expires in {0} minutes: ", tokens.ExpiresIn / 60);
             Console.WriteLine("\nAccess token: " + tokens.AccessToken);
             Console.WriteLine("\nRefresh token: " + tokens.RefreshToken);
+            Console.ReadKey();
         }
 
         // Initialize the form that contains the browser control.

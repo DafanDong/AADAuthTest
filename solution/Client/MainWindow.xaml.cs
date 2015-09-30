@@ -54,7 +54,6 @@ namespace Client
         private static string tenant = ConfigurationManager.AppSettings["ida:Tenant"];
         private static string clientId = ConfigurationManager.AppSettings["ida:ClientId"];
         private static string audience = ConfigurationManager.AppSettings["ida:Audience"];
-
         Uri redirectUri = new Uri(ConfigurationManager.AppSettings["ida:RedirectUri"]);
 
 
@@ -63,7 +62,6 @@ namespace Client
         // To authenticate to the To Do list service, the client needs to know the service's App ID URI.
         // To contact the To Do list service we need it's URL as well.
         //
-        private static string resource_id = ConfigurationManager.AppSettings["ida:ResourceId"];
 
         private HttpClient httpClient = new HttpClient();
         private Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext authContext = null;
@@ -120,7 +118,7 @@ namespace Client
             
             try
             {
-                result = authContext.AcquireToken(resource_id, clientId, redirectUri);
+                result = authContext.AcquireToken(audience, clientId, redirectUri);
                 string text = "Access token: ";
                 token.Text = (text + result.AccessToken);
                 m_access_token = result.AccessToken;
